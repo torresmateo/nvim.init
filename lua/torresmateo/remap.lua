@@ -1,7 +1,7 @@
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
-vim.api.nvim_set_keymap("n", "<leader>tt", ":NvimTreeToggle<cr>", {silent = true, noremap = true})
+--vim.api.nvim_set_keymap("n", "<leader>tt", ":NvimTreeToggle<cr>", {silent = true, noremap = true})
 --vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 --vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
