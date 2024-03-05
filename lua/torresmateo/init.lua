@@ -27,6 +27,7 @@ require("lazy").setup({
     {'nvim-treesitter/playground'},
     {'theprimeagen/harpoon'},
     {'mbbill/undotree'},
+    {'windwp/nvim-projectconfig'},
     {'tpope/vim-fugitive'},
     {
         'nvim-lualine/lualine.nvim',
