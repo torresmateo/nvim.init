@@ -29,6 +29,7 @@ require("lazy").setup({
     {'mbbill/undotree'},
     {'windwp/nvim-projectconfig'},
     {'tpope/vim-fugitive'},
+    {'lepture/vim-jinja'},
     {
         'nvim-lualine/lualine.nvim',
         dependencies = { 'nvim-tree/nvim-web-devicons', opt = true }
@@ -53,5 +54,5 @@ require("lazy").setup({
             {'L3MON4D3/LuaSnip'},     -- Required
         }
     }
-}) 
+})
 
