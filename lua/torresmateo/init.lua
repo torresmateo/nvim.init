@@ -34,17 +34,17 @@ require("lazy").setup({
         'nvim-lualine/lualine.nvim',
         dependencies = { 'nvim-tree/nvim-web-devicons', opt = true }
     },
-        {
-        	'VonHeikemen/lsp-zero.nvim',
-        	branch = 'v2.x',
-        	dependencies = {
-        		-- LSP Support
-        		{'neovim/nvim-lspconfig'},             -- Required
-        		{                                      -- Optional
-        		    'williamboman/mason.nvim',
-        		    run = function()
-        			    pcall(vim.cmd, 'MasonUpdate')
-        		    end,
+    {
+        'VonHeikemen/lsp-zero.nvim',
+        branch = 'v2.x',
+        dependencies = {
+            -- LSP Support
+            {'neovim/nvim-lspconfig'},             -- Required
+            {                                      -- Optional
+                'williamboman/mason.nvim',
+                run = function()
+                    pcall(vim.cmd, 'MasonUpdate')
+                end,
             },
             {'williamboman/mason-lspconfig.nvim'}, -- Optional
 
