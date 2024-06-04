@@ -8,6 +8,7 @@ require'nvim-treesitter.configs'.setup {
                       "c",
                       "lua",
                       "vim",
+                      "go",
                       "vimdoc",
                       "query",
                       "rust" },
