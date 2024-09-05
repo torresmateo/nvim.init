@@ -1,5 +1,6 @@
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+vim.keymap.set("n", "<leader>cs", [[:%s/\s\+$//g]])
 
 --vim.api.nvim_set_keymap("n", "<leader>tt", ":NvimTreeToggle<cr>", {silent = true, noremap = true})
 --vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
@@ -16,10 +17,10 @@ vim.keymap.set("n", "N", "Nzzzv")
 vim.keymap.set("x", "<leader>p", [["_dP]])
 
 -- next greatest remap ever : asbjornHaland
-vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
+vim.keymap.set({ "n", "v" }, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
 
-vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
+vim.keymap.set({ "n", "v" }, "<leader>d", [["_d]])
 
 
 vim.keymap.set("n", "Q", "<nop>")
