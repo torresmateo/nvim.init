@@ -7,6 +7,8 @@ require 'nvim-treesitter.configs'.setup {
         "markdown",
         "markdown_inline",
         "yaml",
+        -- "jinja",
+        "jinja_inline",
         "c",
         "templ",
         "lua",
@@ -35,7 +37,7 @@ require 'nvim-treesitter.configs'.setup {
         -- disable highlighting for the `tex` filetype, you need to include `latex` in this list as this is
         -- the name of the parser)
         -- list of language that will be disabled
-        -- disable = { "c", "rust" },
+        disable = { "dockerfile" },
         -- Or use a function for more flexibility, e.g. to disable slow treesitter highlight for large files
         -- disable = function(lang, buf)
         --     local max_filesize = 100 * 1024 -- 100 KB
